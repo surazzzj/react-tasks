@@ -1,0 +1,58 @@
+*{
+  margin: 10px;
+  font-family:sans-serif;
+}
+
+input{
+  padding: 16px 30px;
+  font-size: 16px;
+  outline: none;
+}
+
+button{
+  padding: 16px 26px;
+  font-size: 16px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#display{
+  margin: 20px 0px;
+}
+
+th{
+  background-color: rgba(228, 228, 228, 0.788);
+  padding: 20px;
+  font-size: large;
+}
+
+td{
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#btn1{
+padding: 14px 20px; 
+border: none;
+background-color: rgba(222, 222, 222, 0.709);
+border:1px solid rgba(222, 222, 222, 0.873) ;
+}
+
+#btn2{
+  background-color: #ff4444;
+  color: white;
+  padding: 14px 20px;
+  border: none; 
+}
+
+#p_last{
+  margin-top: 20px;
+}
+
+#p_last strong{
+  font-size: 18px;
+}
