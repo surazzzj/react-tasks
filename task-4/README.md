@@ -1,4 +1,4 @@
-🧩 Task 4 — Fetch & Display Users from DummyJSON API
+# 🧩 Task 4 — Fetch & Display Users from DummyJSON API
 
 This task demonstrates how to fetch user data from a public REST API (DummyJSON) and display it dynamically in a React application.
 It covers real-world concepts such as:
