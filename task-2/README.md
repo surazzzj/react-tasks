@@ -1,8 +1,10 @@
-# React + Vite
+# 🧩 Task 2 — Simple Todo / Product CRUD App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This task demonstrates a simple CRUD (Create, Read, Update, Delete) application using React. It allows users to:
 
-Currently, two official plugins are available:
+Add new products with name and price
+Edit / Update existing products
+Delete products
+View a dynamic product list with total count
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app uses React functional components, useState hooks, and dynamic rendering to manage a list of items interactively.
