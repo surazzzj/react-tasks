@@ -1,0 +1,21 @@
+*{
+  padding: 10px;
+}
+
+#main{
+display: flex;
+gap:6.5vw;
+flex-wrap: wrap;
+text-align: center;
+}
+
+#main2{
+  line-height: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+p{
+  margin-top: -10px;
+}
