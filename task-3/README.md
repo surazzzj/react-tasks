@@ -1,5 +1,5 @@
 # 🧩 Task 3 — Toggle Password Visibility
-This task demonstrates how to build a simple and interactive password visibility toggle feature using React.
+This task demonstrates how to build a simple password visibility toggle feature using React.
 The component allows users to:
 
 Enter a password,
