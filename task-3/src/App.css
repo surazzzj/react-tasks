@@ -1,0 +1,14 @@
+*{
+  padding: 10px;
+}
+
+input, button{
+  padding: 10px 16px;
+  margin: 0px 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+p{
+  margin-top: 0px;
+}
