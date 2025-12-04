@@ -1,6 +1,7 @@
 # 🧩 Task 2 — Simple Todo / Product CRUD App
 
 This task demonstrates a simple CRUD (Create, Read, Update, Delete) application using React. It allows users to:
+
 Add new products with name and price
 Edit / Update existing products
 Delete products
