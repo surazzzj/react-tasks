@@ -1,8 +1,5 @@
-# React + Vite
+# 🧩 Task 1 — Search Filter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This task demonstrates a simple and efficient search filter feature in React. It allows users to type into an input box and instantly filter a list of items based on the search query. As the user types, the list updates in real time, showing only the items that match the entered text.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project uses React state, list filtering, and case-insensitive search matching to create a smooth and responsive UI.
