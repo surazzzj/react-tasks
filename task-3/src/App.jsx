@@ -1,4 +1,6 @@
-import React, { useState } from 'react'
+// Toggle Password Visibility
+
+import { useState } from 'react'
 import '../src/App.css'
 
 const PasswordToggle = () => {

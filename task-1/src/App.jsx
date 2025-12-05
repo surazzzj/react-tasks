@@ -1,4 +1,6 @@
-import React, { useState } from 'react'
+// Search Filter
+
+import { useState } from 'react'
 import data from '../src/assets/asset'
 import '../src/App.css'
 

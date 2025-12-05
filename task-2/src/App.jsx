@@ -1,3 +1,5 @@
+// Simple Todo App (Add / Remove / Toggle)
+
 import { useState } from "react";
 import '../src/App.css'
 
