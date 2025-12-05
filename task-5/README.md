@@ -1,8 +1,6 @@
-# React + Vite
+# 🧩 Task 4 — Form Validation with Login/Signup Toggle and Submission History
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A dynamic Form Validation component built with React that supports both Login and Signup views. The form captures user inputs using controlled components, 
+validates fields, dynamically toggles between modes, and stores each submission with a timestamp and unique ID. 
+All submitted entries are displayed in real-time and added to a scrollable submission history section.
+Includes features like clearing individual results, resetting the entire history, and securely masking passwords.
