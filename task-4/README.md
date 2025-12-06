@@ -3,12 +3,12 @@
 This task demonstrates how to fetch user data from a public REST API (DummyJSON) and display it dynamically in a React application.
 It covers real-world concepts such as:
 
-API integration,
+* API integration,
 
-useEffect for lifecycle methods,
+* useEffect for lifecycle methods,
 
-Asynchronous data fetching using async/await,
+* Asynchronous data fetching using async/await,
 
-Rendering lists in React.
+* Rendering lists in React.
 
 This small project simulates a basic User Directory UI.
