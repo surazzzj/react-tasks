@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100vh;
+  width: 100vw;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 2rem;
+}
+
+h4{
+  font-size: 2rem;
+}
+
+button{
+  padding: 10px 16px;
+  font-size: 1rem;
+  margin: 0px 5px;
+}
+
+
