@@ -1,8 +1,3 @@
-# React + Vite
+# 🧩 Task 7 - 🌗 React Theme Toggle using Context API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple and elegant React task that demonstrates how to implement Light/Dark Mode using the Context API. This task includes a global theme provider, dynamic styling, and a smooth UI toggle button.
