@@ -11,4 +11,4 @@ It covers real-world concepts such as:
 
 * Rendering lists in React.
 
-This small project simulates a basic User Directory UI.
+This small task simulates a basic User Directory UI.
