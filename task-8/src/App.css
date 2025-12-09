@@ -1,0 +1,208 @@
+ .file-preview-container {
+          max-width: 500px;
+          margin: 2rem auto;
+          padding: 2rem;
+          background: white;
+          border-radius: 16px;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        .title {
+          margin: 0 0 0.5rem 0;
+          color: #2d3748;
+          font-size: 1.8rem;
+          font-weight: 700;
+          text-align: center;
+        }
+
+        .subtitle {
+          margin: 0 0 2rem 0;
+          color: #718096;
+          text-align: center;
+          font-size: 1rem;
+        }
+
+        .hidden-input {
+          display: none;
+        }
+
+        .drop-zone {
+          border: 2px dashed #cbd5e0;
+          border-radius: 12px;
+          padding: 3rem 2rem;
+          text-align: center;
+          transition: all 0.3s ease;
+          background: #f8fafc;
+          margin-bottom: 1.5rem;
+        }
+
+        .drop-zone.drag-over {
+          border-color: #4299e1;
+          background: #ebf8ff;
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba(66, 153, 225, 0.15);
+        }
+
+        .drop-zone.has-image {
+          border: none;
+          padding: 0;
+          background: transparent;
+        }
+
+        .upload-icon {
+          font-size: 3rem;
+          margin-bottom: 1rem;
+          opacity: 0.7;
+        }
+
+        .upload-text {
+          margin-bottom: 1.5rem;
+        }
+
+        .upload-text p {
+          margin: 0.5rem 0;
+          color: #4a5568;
+        }
+
+        .file-types {
+          font-size: 0.9rem;
+          color: #a0aec0;
+        }
+
+        .browse-btn,
+        .change-btn,
+        .remove-btn-full {
+          background: #4299e1;
+          color: white;
+          border: none;
+          padding: 0.75rem 1.5rem;
+          border-radius: 8px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          font-size: 0.95rem;
+        }
+
+        .browse-btn:hover,
+        .change-btn:hover {
+          background: #3182ce;
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(49, 130, 206, 0.3);
+        }
+
+        .preview-container {
+          animation: fadeIn 0.3s ease;
+        }
+
+        .image-wrapper {
+          position: relative;
+          border-radius: 12px;
+          overflow: hidden;
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+          margin-bottom: 1.5rem;
+        }
+
+        .preview-image {
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
+          display: block;
+          transition: transform 0.3s ease;
+        }
+
+        .preview-image:hover {
+          transform: scale(1.02);
+        }
+
+        .image-overlay {
+          position: absolute;
+          top: 1rem;
+          right: 1rem;
+        }
+
+        .remove-btn {
+          background: rgba(255, 255, 255, 0.9);
+          border: none;
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          font-size: 1.2rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #4a5568;
+        }
+
+        .remove-btn:hover {
+          background: white;
+          transform: scale(1.1);
+          color: #e53e3e;
+        }
+
+        .file-info {
+          padding: 0 0.5rem;
+        }
+
+        .file-name {
+          margin: 0 0 1rem 0;
+          font-weight: 600;
+          color: #2d3748;
+          word-break: break-all;
+          font-size: 0.95rem;
+        }
+
+        .actions {
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+        }
+
+        .remove-btn-full {
+          background: #fc8181;
+        }
+
+        .remove-btn-full:hover {
+          background: #f56565;
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(245, 101, 101, 0.3);
+        }
+
+        .hint {
+          text-align: center;
+          color: #38a169;
+          font-size: 0.9rem;
+          padding: 0.75rem;
+          background: #f0fff4;
+          border-radius: 8px;
+          border: 1px solid #c6f6d5;
+          animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(10px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        @media (max-width: 600px) {
+          .file-preview-container {
+            margin: 1rem;
+            padding: 1.5rem;
+          }
+          
+          .actions {
+            flex-direction: column;
+          }
+          
+          .preview-image {
+            height: 250px;
+          }
+        }
