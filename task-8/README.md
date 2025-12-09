@@ -1,4 +1,4 @@
-# 🧩 Task 4 - 📁 React Image Preview Component
+# 🧩 Task 4 - Image Preview Component
 
 A modern and responsive Image Upload + Drag & Drop Preview Component built using React.
 This component allows users to:
