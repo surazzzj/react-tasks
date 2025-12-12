@@ -1,0 +1,92 @@
+/* CONTAINER */
+
+.stopwatch-container {
+  text-align: center;
+  padding: 30px;
+  font-family: "Arial", sans-serif;
+}
+
+/* TIME DISPLAY */
+
+.stopwatch-time {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS */
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-start {
+  background-color: #4caf50;
+}
+
+.btn-stop {
+  background-color: #f44336;
+}
+
+.btn-reset {
+  background-color: #2196f3;
+}
+
+.btn-lap {
+  background-color: #ff9800;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-clear {
+  margin-top: 10px;
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #9c27b0;
+  border-radius: 6px;
+  color: white;
+}
+
+/* LAP LIST */
+
+.laps-heading {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.lap-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.lap-item {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 6px auto;
+  width: 220px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
