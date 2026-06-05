@@ -6,24 +6,29 @@ import '../src/App.css'
 
 const SearchFilter = () => {
 
-  const [query, setQuery] = useState("");
+ const [query, setQuery] = useState("");
 
-  const filtered = data.filter(item =>
+  const filtered = data.filter((item) =>
     item.toLowerCase().includes(query.toLowerCase())
   );
 
   return (
-    <div>
-      <input type="text"
-        placeholder='Search...'
+    <div className="App">
+      <h1>Search Filter</h1>
+
+      <input
+        className="input"
+        type="text"
+        placeholder="Search..."
+        value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
 
-      {filtered.map((item,idx) => (
+      {filtered.map((item, idx) => (
         <p key={idx}>{item}</p>
       ))}
     </div>
-  )
+  );
 }
 
 export default SearchFilter
