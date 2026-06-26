@@ -31,7 +31,7 @@ const App = () => {
         onChange={(e) => setCountryIndex(e.target.value)}
         style={{ padding: "10px", fontSize: "16px", fontWeight: "bold" }}
       >
-        <option value="">Select Country</option>
+        <option disabled value="">Select Country</option>
         {countries.map((country, index) => (
           <option key={index} value={index}>
             {country.name}
